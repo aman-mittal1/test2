@@ -1,0 +1,19 @@
+/*<Applet code=Exmaple>*/
+
+public class Exmaple extends Applet
+{
+	Font f1,f2,f3;
+	public void init()
+	{
+		f1=new Font("TimesNewRoman", Font.Bold,20);
+		//f2=new Font("TimesNewRoman", Font.Bold,20);
+		//f3=new Font("TimesNewRoman", Font.Bold,20);
+	}
+	public void paint(Graphics g)
+	{
+		g.drawString("welcome",100,100);
+		setFont(f1);
+		//g.drawString("welcome",200,200);
+		
+	}
+}
